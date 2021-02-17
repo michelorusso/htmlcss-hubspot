@@ -1,5 +1,86 @@
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*COMMON*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two-col .col {
+    width: 50%;
+}
+/*HEADER*/
+
+/*Nav*/
+.nav-top {
+    background-color: #eeffff;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.m-link {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: black;
+}
+
+.fas {
+    padding: 0 5px;
+}
+
+#special {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.fa-search {
+    color: rgb(51, 180, 212);
+}
+
+.login {
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 8px 7px;
+    border-radius: 5px;
+}
+
+.gethf {
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    color: white;
+    padding: 8px 7px;
+    border-radius: 5px;
+}
+
+.nav-top .col:last-child {
+    text-align: right;
 }
