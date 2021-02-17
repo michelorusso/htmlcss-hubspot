@@ -28,6 +28,14 @@ body {
 .two-col .col {
     width: 50%;
 }
+
+.button {
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
 /*HEADER*/
 
 /*Nav*/
@@ -73,12 +81,8 @@ nav a {
     border-radius: 5px;
 }
 
-.gethf {
-    border: 1px solid #ff7a59;
-    background-color: #ff7a59;
-    color: white;
+.gethub {
     padding: 8px 7px;
-    border-radius: 5px;
 }
 
 .nav-top .col:last-child {
