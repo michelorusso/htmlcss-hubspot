@@ -11,7 +11,7 @@ img {
 
 /*COMMON*/
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -40,7 +40,9 @@ body {
     background-color: #ff7a59;
     color: white;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 12px;
 }
 /*HEADER*/
 
@@ -107,9 +109,40 @@ nav a {
 /*Jumbotron*/
 .jumbotron {
     background-image: url(../img/jumbotron.png);
-    height: 500px;
-    background-size: contain;
+    height: 470px;
+    background-size: 1100px;
     background-repeat: no-repeat;
     background-color: #fff3ee;
+    background-position: 100% 0;
+    border-bottom: 2px solid #425b76;
 }
 
+.title {
+    width: 52%;
+    color: #425b76;
+    padding-top: 5%;
+}
+
+h1{
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.title p {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.title h5{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 40px
+}
+
+.bg-lightblue {
+    height: 60px;
+    width: 100%;
+    background-color: #aceae3;
+    border-bottom: 2px solid #425b76;
+}
