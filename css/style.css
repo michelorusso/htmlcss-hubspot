@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 1024px;
     margin: auto;
 }
 
@@ -23,6 +23,7 @@ body {
     float: left;
 }
 
+/*Clearfix and Column*/
 .clearfix::after {
     content: "";
     display: table;
@@ -33,6 +34,7 @@ body {
     width: 50%;
 }
 
+/*Button*/
 .button {
     border: 1px solid #ff7a59;
     background-color: #ff7a59;
@@ -101,3 +103,13 @@ nav a {
 .nav-bottom img {
     width: 100px;
 }
+
+/*Jumbotron*/
+.jumbotron {
+    background-image: url(../img/jumbotron.png);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff3ee;
+}
+
