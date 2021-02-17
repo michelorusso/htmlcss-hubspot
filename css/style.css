@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 /*COMMON*/
 body {
     font-family: 'Montserrat', sans-serif;
@@ -41,7 +45,7 @@ body {
 /*Nav*/
 .nav-top {
     background-color: #eeffff;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #425b76;
     padding: 20px 0;
 }
 
@@ -58,15 +62,15 @@ nav a {
     font-size: 12px;
     font-weight: 500;
     margin-right: 10px;
-    color: black;
+    color: #425b76;
 }
 
 .fas {
-    padding: 0 5px;
+    padding: 0 6px;
 }
 
 #special {
-    border-right: 1px solid black;
+    border-right: 1px solid #425b76;
     padding-right: 10px;
 }
 
@@ -85,6 +89,15 @@ nav a {
     padding: 8px 7px;
 }
 
-.nav-top .col:last-child {
+.nav-top .col:last-child,
+.nav-bottom .col:last-child {
     text-align: right;
+}
+
+.nav-bottom {
+    padding: 15px 0;
+}
+
+.nav-bottom img {
+    width: 100px;
 }
