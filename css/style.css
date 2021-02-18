@@ -176,21 +176,30 @@ main p {
     width: 110px;
     background-color: white;
     padding-bottom: 30px;
-    margin: auto;
 }
 
-.main-offer{
-    padding: 5% 10%;
+.main-offer {
     background-color: white;
 }
 
+.main-offer .left{
+    padding: 5% 10%;
+}
+
+.main-offer .right{
+    padding-top: 5%;
+    padding-right: 10%; 
+}
+
+.main-offer .left {
+    display: inline-block;
+    text-align: center;
+}
+
 .two-col .left {
-    width: 34%;
+    width: 32%;
 }
 
 .two-col .right {
-    width: 66%;
-    /*TEST*/
-    height: 100px;
-    background-color: greenyellow;
+    width: 68%;
 }
