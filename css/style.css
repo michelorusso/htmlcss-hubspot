@@ -316,3 +316,34 @@ main p {
 .box-table {
     padding: 25px 0;
 }
+
+/*Sponsor and testimonial*/
+.sponsor {
+    padding-top: 40px;
+}
+
+.sponsor .left {
+    padding-left: 8%;
+}
+.sponsor h3 {
+    font-size: 35px;
+}
+
+.sponsor p span {
+    font-weight: 800;
+}
+
+.sponsor p {
+    width: 55%;
+}
+
+.sponsor .right {
+    padding: 0 60px;
+}
+
+.sponsor img {
+    display: inline-block;
+    width: 120px;
+    padding: 15px 10px;
+    vertical-align: middle;
+}
