@@ -46,6 +46,10 @@ p {
     width: 30%;
 }
 
+.four-col .col {
+    width: 25%;
+}
+
 /*Button*/
 .button {
     border: 1px solid #ff7a59;
@@ -157,7 +161,7 @@ h1{
     padding-top: 10px;
 }
 /*MAIN*/
-/*-Advantages-hubspot*/
+/*Advantages-hubspot*/
 .advantages-hubspot {
     background-color: #f5f8fa;
 }
@@ -269,3 +273,46 @@ main p {
 }
 
 /*Hubspot Results*/
+.results-hub {
+    background-color: #00aab7;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.results-hub h2 {
+    width: 90%;
+    margin: auto;
+    font-size: 28px;
+}
+
+
+.four-col .col {
+    padding: 20px;
+}
+
+.bord-top {
+    border-top: 1px solid white;
+}
+.bord-white {
+    border-right: 1px solid white;
+}
+
+.results-hub img {
+    height: 25px;
+}
+
+.quantity-results {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+.four-col h6 {
+    font-weight: 400;
+}
+
+.box-table {
+    padding: 25px 0;
+}
