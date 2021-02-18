@@ -7,6 +7,7 @@
 
 img {
     width: 100%;
+    display: block;
 }
 
 /*COMMON*/
@@ -148,7 +149,7 @@ h1{
 }
 
 /*MAIN*/
-/*advantages-hubspot*/
+/*-Advantages-hubspot*/
 .advantages-hubspot {
     background-color: #f5f8fa;
 }
@@ -157,15 +158,39 @@ main p {
     font-weight: 400;
 }
 
+/*slogan*/
 .slogan {
     width: 75%;
     text-align: center;
-    padding: 4% 0;
+    padding-top: 4%;
     margin: auto;
 }
 
 .slogan img {
     width: 200px;
     margin: auto;
-    display: block;
+}
+
+/*offers*/
+.offers img{
+    width: 110px;
+    background-color: white;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.main-offer{
+    padding: 5% 10%;
+    background-color: white;
+}
+
+.two-col .left {
+    width: 34%;
+}
+
+.two-col .right {
+    width: 66%;
+    /*TEST*/
+    height: 100px;
+    background-color: greenyellow;
 }
