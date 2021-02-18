@@ -318,6 +318,7 @@ main p {
 }
 
 /*Sponsor and testimonial*/
+/*sponsor*/
 .sponsor {
     padding-top: 40px;
 }
@@ -338,7 +339,7 @@ main p {
 }
 
 .sponsor .right {
-    padding: 0 60px;
+    padding-left: 130px;
 }
 
 .sponsor img {
@@ -346,4 +347,35 @@ main p {
     width: 120px;
     padding: 15px 10px;
     vertical-align: middle;
+}
+
+/*testimonial*/
+.testimonial {
+    margin: 25px 0;
+}
+.box-testimonial {
+    width: 90%;
+}
+
+.testimonial h2{
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.testimonial h6 {
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.a {
+    text-align: right;
+}
+.asian {
+    width: 50%;
+    display: inline-block;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #2d3e50;
 }
