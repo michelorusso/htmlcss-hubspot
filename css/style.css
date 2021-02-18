@@ -12,6 +12,7 @@ img {
 /*COMMON*/
 body {
     font-family: 'Roboto', sans-serif;
+    color: #33475b;
 }
 
 .container {
@@ -21,6 +22,12 @@ body {
 
 .col {
     float: left;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 30px 0;
 }
 
 /*Clearfix and Column*/
@@ -42,7 +49,7 @@ body {
     border-radius: 5px;
     padding: 15px 25px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
 }
 /*HEADER*/
 
@@ -75,7 +82,7 @@ nav .fas {
 }
 
 #bord-right {
-    border-right: 1px solid #33475b;
+    border-right: 1px solid;
     padding-right: 10px;
 }
 
@@ -115,37 +122,50 @@ nav .fas {
     background-repeat: no-repeat;
     background-color: #fff3ee;
     background-position: 100% 0;
-    border-bottom: 2px solid #425b76;
+    border-bottom: 2px solid;
 }
 
 .title {
     width: 50%;
-    color: #33475b;
     padding-top: 5%;
 }
 
 h1{
     font-size: 43px;
-    padding-bottom: 20px;
-}
-
-.title p {
-    font-weight: 500;
-    font-size: 15px;
-    padding-bottom: 40px;
 }
 
 .title h5{
     font-size: 12px;
     font-weight: 400;
-    padding-top: 40px
+    padding-top: 30px
 }
 
 .bg-lightblue {
     height: 60px;
     width: 100%;
     background-color: #aceae3;
-    border-bottom: 2px solid #425b76;
+    border-bottom: 2px solid;
 }
 
 /*MAIN*/
+/*advantages-hubspot*/
+.advantages-hubspot {
+    background-color: #f5f8fa;
+}
+
+main p {
+    font-weight: 400;
+}
+
+.slogan {
+    width: 75%;
+    text-align: center;
+    padding: 4% 0;
+    margin: auto;
+}
+
+.slogan img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
