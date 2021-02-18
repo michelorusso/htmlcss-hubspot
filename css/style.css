@@ -28,7 +28,7 @@ body {
 p {
     font-weight: 500;
     font-size: 15px;
-    padding: 30px 0;
+    padding: 25px 0;
 }
 
 /*Clearfix and Column*/
@@ -42,6 +42,10 @@ p {
     width: 50%;
 }
 
+.three-col .col {
+    width: 30%;
+}
+
 /*Button*/
 .button {
     border: 1px solid #ff7a59;
@@ -51,6 +55,7 @@ p {
     padding: 15px 25px;
     text-decoration: none;
     font-size: 11px;
+    display: inline-block;
 }
 /*HEADER*/
 
@@ -148,6 +153,9 @@ h1{
     border-bottom: 2px solid;
 }
 
+.jumbotron .button {
+    padding-top: 10px;
+}
 /*MAIN*/
 /*-Advantages-hubspot*/
 .advantages-hubspot {
@@ -173,13 +181,17 @@ main p {
 
 /*offers*/
 .offers img{
-    width: 110px;
+    height: 120px;
     background-color: white;
     padding-bottom: 30px;
+    margin: auto;
 }
 
+/*Offerta principale o in risalto*/
 .main-offer {
     background-color: white;
+    border: 1px solid #d9e0e4;
+    border-radius: 5px;
 }
 
 .main-offer .left{
@@ -203,3 +215,57 @@ main p {
 .two-col .right {
     width: 68%;
 }
+
+.offers h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.offers .menu {
+    padding-top: 15px;
+}
+
+.offers .m-link {
+    font-size: 13px;
+    margin-right: 12px;
+}
+
+.fa-check-circle {
+    color: #ff7a59;
+    margin-right: 8px;
+}
+
+/*Other-offers (altre offerte da visualizzare)*/
+.other-offers{
+    padding: 4% 0;
+}
+.offers .three-col {
+    text-align: center;
+}
+
+.other-offers .col{
+    background-color: white;
+    border: 1px solid #d9e0e4;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.three-col li {
+    text-align: left;
+    font-size: 13px;
+}
+
+.three-col hr {
+    margin: 20px 0;
+}
+
+.three-col  .button {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.three-col .center {
+    margin: 0 5%;
+}
+
+/*Hubspot Results*/
