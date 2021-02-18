@@ -49,7 +49,7 @@ body {
 /*Nav*/
 .nav-top {
     background-color: #eeffff;
-    border-bottom: 1px solid #425b76;
+    border-bottom: 1px solid #33475b;
     padding: 20px 0;
 }
 
@@ -66,15 +66,16 @@ nav a {
     font-size: 12px;
     font-weight: 500;
     margin-right: 10px;
-    color: #425b76;
+    color: #33475b;
 }
 
-.fas {
+/*Fas è la classe di default assegnata alle icone prese da Font Awesome */
+nav .fas {
     padding: 0 6px;
 }
 
-#special {
-    border-right: 1px solid #425b76;
+#bord-right {
+    border-right: 1px solid #33475b;
     padding-right: 10px;
 }
 
@@ -118,8 +119,8 @@ nav a {
 }
 
 .title {
-    width: 52%;
-    color: #425b76;
+    width: 50%;
+    color: #33475b;
     padding-top: 5%;
 }
 
@@ -146,3 +147,5 @@ h1{
     background-color: #aceae3;
     border-bottom: 2px solid #425b76;
 }
+
+/*MAIN*/
