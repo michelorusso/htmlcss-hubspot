@@ -194,7 +194,7 @@ main p {
 /*Offerta principale o in risalto*/
 .main-offer {
     background-color: white;
-    border: 1px solid #d9e0e4;
+    box-shadow: 0 0 10px #d2d9e0;
     border-radius: 5px;
 }
 
@@ -249,7 +249,7 @@ main p {
 
 .other-offers .col{
     background-color: white;
-    border: 1px solid #d9e0e4;
+    box-shadow: 0 0 10px #d2d9e0;
     border-radius: 5px;
     padding: 25px;
 }
@@ -274,7 +274,7 @@ main p {
 
 /*Hubspot Results*/
 .results-hub {
-    background-color: #00aab7;
+    background-image: linear-gradient( 45deg, #00a4bd,#00bda5);
     text-align: center;
     color: white;
     padding: 30px 0;
@@ -380,16 +380,16 @@ main p {
 footer {
     background-color: #2d3e50;
     padding: 30px 0;
+    color: white;
 }
 
 .help h4 {
-    color: white;
     font-weight: 600;
     font-size: 15px;
     padding-bottom: 15px;
 }
 
-.help a {
+footer a {
     text-decoration: none;
     font-size: 11px;
     font-weight: 300;
@@ -398,4 +398,56 @@ footer {
 
 .help li {
     margin: 15px 0;
+}
+
+.help .button {
+    background-color: white;
+    border: 1px solid white;
+    color: #2d3e50;    
+    padding: 10px 10px;
+    font-weight: 500;
+}
+
+.socialnetwork .m-link {
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
+.socialnetwork a {
+    font-size: 15px;
+}
+
+/*Languages*/
+.language .menu {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.language .m-link {
+    margin-right: 20px;
+}
+
+/*Copyright*/
+.copyright {
+    margin-top: 30px;
+}
+
+.copyright img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.copyright h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.copyright .col:last-child {
+    text-align: right;
+}
+
+.copyright a {
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
 }
