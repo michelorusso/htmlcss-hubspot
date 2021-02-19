@@ -221,7 +221,7 @@ main p {
     text-align: center;
 }
 
-.offers h4 {
+.main-offer h4 {
     text-transform: uppercase;
     font-size: 15px;
     display: flex;
@@ -252,6 +252,7 @@ h4 span {
 .other-offers{
     padding: 4% 0;
 }
+
 .offers .three-col {
     text-align: center;
 }
@@ -263,13 +264,18 @@ h4 span {
     padding: 25px;
 }
 
+.other-offers p {
+    border-bottom: 1px solid #33475b;
+    padding-bottom: 50px;
+}
+
+.other-offers h4 {
+    padding-top: 30px;
+}
+
 .three-col li {
     text-align: left;
     font-size: 13px;
-}
-
-.three-col hr {
-    margin: 20px 0;
 }
 
 .three-col  .button {
