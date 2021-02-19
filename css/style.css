@@ -42,6 +42,15 @@ p {
     width: 50%;
 }
 
+/*Two-col alternative*/
+.two-col .left {
+    width: 32%;
+}
+
+.two-col .right {
+    width: 68%;
+}
+
 .three-col .col {
     width: 30%;
 }
@@ -212,17 +221,17 @@ main p {
     text-align: center;
 }
 
-.two-col .left {
-    width: 32%;
-}
-
-.two-col .right {
-    width: 68%;
-}
-
 .offers h4 {
     text-transform: uppercase;
     font-size: 15px;
+    display: flex;
+}
+
+h4 span {
+    height: 10px;
+    width: 65%;
+    border-bottom: 1px solid #33475b;
+    margin-left: 60px;
 }
 
 .offers .menu {
